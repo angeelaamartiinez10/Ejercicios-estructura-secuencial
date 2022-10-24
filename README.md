@@ -1,1 +1,1 @@
-# Ejercicios-estructura-secuencial
+# Ejercicios-sentencias-repetitivas
