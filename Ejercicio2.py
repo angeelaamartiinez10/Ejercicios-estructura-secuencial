@@ -8,11 +8,24 @@ que había generado.
 '''
 
 import random
-numero=random.randit(1,100)
+numero=random.randint(1,100)
 print (numero)
 
-contador=0
+contador=1
 num=0
-num=(int)(input("Dime un numero"))
+num=(int)(input("Dime un numero "))
 
-while(contador!=10):
+while(contador<=9 and num!=numero):
+    if num!=numero and num<numero:
+        print("EL número aleatorio es mayor")
+    elif num!=numero and num>numero:
+        print("El numero aleatorio es menor")        
+
+    num=(int)(input("Dime otro numero "))
+    contador +=1
+    print("Llevas",contador, "intentos")
+
+if contador==10 and num!=numero:
+    print("Lo siento has agotado tus 10 intentos")
+else:
+    print("HAS ACERTADO.El numero aleatorio es: " ,numero,)
