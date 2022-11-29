@@ -32,3 +32,5 @@ while(contador>0):
     contador-=1
 print ("El factorial de " ,num, "es" ,resultado,)
 
+
+#MUY BIEN ANGELA, SIGUE ASÍ, VAS A SER UNA BUENA ARQUITUEZCA.
